@@ -2,9 +2,9 @@
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Павел Красин</a>
         <div class="nav-links">
-            {#if nav.isShow}
-            <a href={nav.href} class="link">{nav.title}</a>
-            {/if}
+            {#each nav as link} 
+            <a href={link.href} class="link">{link.title}</a>
+            {/each}
         </div>
     </div>
 </nav>
