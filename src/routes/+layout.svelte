@@ -2,10 +2,9 @@
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Павел Красин</a>
         <div class="nav-links">
-            <!-- svelte-ignore missing-declaration -->
-            {#if nav.link.isShow} 
+            {#each nav as link} 
             <a href={link.href} class="link">{link.title}</a>
-            {/if}
+            {/each}
         </div>
     </div>
 </nav>
@@ -42,7 +41,7 @@
          href: "/temp",
          isShow: false,
         },
-    ]
+    ];
 </script>
 
 <style>
