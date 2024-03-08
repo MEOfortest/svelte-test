@@ -26,11 +26,11 @@
         },
         {
          title: "Портфолио",
-         href: "/projects"
+         href: "/project"
         },
         {
          title: "Конакты",
-         href: "/contact"
+         href: "/contacts"
         },
         {
          title: "temp",
