@@ -3,7 +3,7 @@
         <a href="/" class="nav-logo" title="Back to Homepage">Павел Красин</a>
         <div class="nav-links">
             <!-- svelte-ignore missing-declaration -->
-            {#if link.isShow} 
+            {#if nav.isShow} 
             <a href={link.href} class="link">{link.title}</a>
             {/if}
         </div>
