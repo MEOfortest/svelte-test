@@ -1,6 +1,6 @@
 <h1>А вот и я :)</h1>
 
-<img src="pictures/myphoto.jpg" alt="me" />
+<img src="pictures/myphoto.jpg" width="80%" alt="me" />
 
 <p>Я многое узнал за время обучения в Коде Будущего! Я научился много новому и теперь многое умею</p>
 
