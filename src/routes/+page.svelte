@@ -52,12 +52,11 @@
         text-align: left;
         line-height: 130%;
         width: fit-content;
-        font-weight: 800;
+        font-weight: 700;
         letter-spacing: -0.03em;
     }
 
     .info h2 {
-        max-width: 65ch;
         font-weight: 200;
         margin-top: 0.50rem;
     }
