@@ -69,6 +69,6 @@
         background-color: red;
         width: 100%;
         height: 56vh;
-        margin: -205px auto;
+        margin: -265px auto;
     }
 </style>

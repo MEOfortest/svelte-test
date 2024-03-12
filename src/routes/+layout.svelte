@@ -27,12 +27,12 @@
          isShow: true,
         },
         {
-         title: "Портфолио",
+         title: "Проект",
          href: "/project",
          isShow: true,
         },
         {
-         title: "Конакты",
+         title: "Контакты",
          href: "/contacts",
          isShow: true,
         },
