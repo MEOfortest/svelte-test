@@ -47,6 +47,9 @@
     .container {
         max-width: 1400px;
         margin: 50px auto;
+    }
+
+    .nav-container {
         border: 2px solid black;
     }
 </style>

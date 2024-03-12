@@ -1,52 +1,48 @@
 <svelte:head>
-<title>Портфолио</title>
-</svelte:head>
 
+<title>Новости</title>
+</svelte:head>
 <div class="container">
-	<h1>Мои проекты</h1>
-	<div class="apps">
-		{#each routes as page}
-			<div class="app">
-				<h2>{page.title}</h2>
-				<p>{page.body}</p>
-				<p class="readmore">
-					<a class="link" href={`/project/apps/${page.id}`}>
-					Читать далее
-					</a>
-				</p>
-			</div>
-		{/each}
-	</div>
+    <h1>Новости в IT-технологиях</h1>
+    <div class="blogposts">
+        {#each blocks as page}
+            <div class="post">
+                <h2>{page.title}</h2>
+                <p>{page.body}</p>
+                <p class="readmore">
+                    <a class="link" href={`/news/posts/${page.id}`}>
+                    Подробнее...
+                    </a>
+                </p>
+            </div>
+        {/each}
+    </div>
 </div>
 
 <script>
+    import {blocks} from "./blocks";
+</script>
 
-    import { routes } from "./routes.js";
-    
-    </script>
-    
-    <style>
-    
+<style>
     .container {
-        margin: 50px auto;
-        max-width: 800px;
+        margin: 100 px auto;
+        max-width: 1250px;
         padding: 0 20px;
     }
-    
-    .apps {
+
+    .blogposts {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 30px;
     }
-    
-    .app {
+
+    .post {
         border: 1px solid #ddd;
         padding: 10px;
         box-shadow: 0 0 10px #eee;
     }
-    
+
     .link {
-        color: rgb(10, 10, 139);
+        color: rgb(10,10,139);
     }
-    </style>
-    
+</style>
