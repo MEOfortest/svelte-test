@@ -1,29 +1,29 @@
 <script>
 
     import Icon from '../../../../components/Icon.svelte';
-    let newItem = " ";
+    let newItem = "";
     let todoList = [];
     function add() {
-        if (newItem !== " ") {
+        if (newItem !== "") {
         todoList = [
             ...todoList,
             {
-              Задача: newItem,
-              Завершено: false,
+              задача: newItem,
+              завершено: false,
             },
         ];
-        newItem = " ";
+        newItem = "";
         }
-    }
+    };
     
     function remove(index) {
 	todoList.splice(index, 1);
 	    todoList = todoList;
-    }
+    };
 
     function complete(index) {
 	    todoList[index].completed = !todoList[index].completed;
-    }
+    };
     </script>
     <main>
     <h1>My to-do list</h1>
