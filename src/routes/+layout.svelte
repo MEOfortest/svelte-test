@@ -18,7 +18,7 @@
     const nav = [
         {
          title: "Обо мне",
-         href: "/about/all_info.html",
+         href: "/about",
          isShow: true,
         },
         {
