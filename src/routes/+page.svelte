@@ -63,7 +63,7 @@
     
     .background-div {
         background-color: lightgray;
-        width: 100%;
+        width: 80%;
         height: 100%;
         margin: -160px auto;
     }

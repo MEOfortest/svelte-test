@@ -26,8 +26,8 @@
          isShow: true,
         },
         {
-         title: "Проект",
-         href: "/project",
+         title: "Проекты",
+         href: "/projects",
          isShow: true,
         },
         {
