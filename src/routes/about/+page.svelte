@@ -15,7 +15,7 @@
 
     <div class="text-block"> МЕНЕДЖЕР </div>
 
-<p>Или сделать <button id="background">вот так</button></p>
+<button id="background">вот так</button>
 
 <style>
  p {
@@ -51,6 +51,6 @@ const button = document.getElementById("background");
 button.addEventListener('click', function() {
     const body = document.querySelector('body');
     body.style.backgroundColor = "green";
-    
+
 });
 </script>
