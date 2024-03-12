@@ -14,16 +14,16 @@
         ];
         newItem = "";
         }
-    };
+    }
     
     function remove(index) {
 	todoList.splice(index, 1);
 	    todoList = todoList;
-    };
+    }
 
     function complete(index) {
 	    todoList[index].completed = !todoList[index].completed;
-    };
+    }
     </script>
     <main>
     <h1>My to-do list</h1>
@@ -91,6 +91,12 @@
         align-items: center;
     }
     
+    .todo\_\_buttons {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    
     .todo button {
         width: 32px;
         height: 32px;
@@ -106,7 +112,7 @@
     }
     
     button {
-        background-color: transparent;
+        background-color: blue;
         border: none;
     }
     
@@ -124,6 +130,10 @@
     
     .todo.completed {
         color: slategray;
+    }
+    
+    .todo.completed.todo\_\_text {
+        text-decoration: line-through;
     }
     
     .todo.completed button {
