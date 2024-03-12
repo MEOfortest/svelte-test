@@ -91,7 +91,7 @@
         align-items: center;
     }
     
-    .todo_buttons {
+    .todo\_\_buttons {
         display: flex;
         align-items: center;
         margin-left: 1rem;
@@ -110,7 +110,12 @@
         font-size: 1.5rem;
         margin: 2em 0;
     }
-     
+    
+    button {
+        background-color: blue;
+        border: none;
+    }
+    
     button.delete,
     button.delete:hover {
         color: brown;
@@ -127,8 +132,7 @@
         color: slategray;
     }
     
-    .todo.completed,
-    .todo_text {
+    .todo.completed.todo\_\_text {
         text-decoration: line-through;
     }
     
