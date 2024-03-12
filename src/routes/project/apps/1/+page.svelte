@@ -111,18 +111,23 @@
         margin: 2em 0;
     }
     
-    button {
+    button.complete {
         background-color: blue;
-        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    button.delete {
+        background-color: red;
+        border-radius: 100%;
+        cursor: pointer;
     }
     
-    button.delete,
     button.delete:hover {
         color: brown;
         transition: color 100ms ease-out;
     }
     
-    button.complete,
     button.complete:hover {
         color: cabetblue;
         transition: color 100ms ease-out;
