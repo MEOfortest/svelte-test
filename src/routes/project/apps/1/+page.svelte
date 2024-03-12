@@ -1,10 +1,10 @@
 <script>
 
     import Icon from '../../../../components/Icon.svelte';
-    let newItem = '';
+    let newItem = "";
     let todoList = [];
     function add() {
-        if (newItem !== '') {
+        if (newItem !== "") {
         todoList = [
             ...todoList,
             {
@@ -12,7 +12,7 @@
               Завершено: false,
             },
         ];
-        newItem = '';
+        newItem = "";
         }
     }
     
