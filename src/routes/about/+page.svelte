@@ -15,7 +15,7 @@
 
     <div class="text-block"> МЕНЕДЖЕР </div>
 
-<p>Или сделать <input type="button" id="background" value="Изменить цвет фона" onclick="ChangeBackground()"></p>
+<p>Или сделать <button id="background">вот так</button></p>
 
 <style>
  p {
@@ -46,10 +46,11 @@
 </style>
 
 <script>
-const body = document.querySelector('body'); 
 
-function ChangeBackground() { 
-    const background = document.getElementById("background").value;
+const button = document.getElementById("background"); 
+button.addEventListener('click', function() {
+    const body = document.querySelector('body');
     body.style.backgroundColor = "green";
-}
+    
+});
 </script>
