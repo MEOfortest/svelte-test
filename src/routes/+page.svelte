@@ -71,19 +71,4 @@
         height: 56vh;
         margin: -205px auto;
     }
-
-    .info .info-text {
-        position: relative;
-    }
-
-    .scroll-button {
-        display: flex;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-
-    .scroll-button .arrow {
-        margin-left: 0.5rem;
-    }
 </style>
