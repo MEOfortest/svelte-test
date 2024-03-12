@@ -62,10 +62,18 @@
 </table>
 
 <style>
- p, ul, td {
+ p, ul {
     font-style: oblique;
     font-size: 30px;
     color: blue;
+ }
+
+ td, th {
+    font-style: italic;
+    font-size: 25px;
+    color: purple;
+    border: 1px solid grey;
+    padding: 10px;
  }
 
  .text-block {
