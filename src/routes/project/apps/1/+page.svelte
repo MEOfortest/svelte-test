@@ -91,12 +91,6 @@
         align-items: center;
     }
     
-    .todo\_\_buttons {
-        display: flex;
-        align-items: center;
-        margin-left: 1rem;
-    }
-    
     .todo button {
         width: 32px;
         height: 32px;
@@ -130,10 +124,6 @@
     
     .todo.completed {
         color: slategray;
-    }
-    
-    .todo.completed.todo\_\_text {
-        text-decoration: line-through;
     }
     
     .todo.completed button {
