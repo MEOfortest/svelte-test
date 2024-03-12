@@ -26,14 +26,14 @@
 <style>
     .container {
         margin: 50 px auto;
-        max-width: 800px;
+        max-width: 1100px;
         padding: 0 20px;
     }
 
     .blogposts {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 30px;
     }
 
     .post {
