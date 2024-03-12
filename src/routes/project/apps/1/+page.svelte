@@ -112,7 +112,7 @@
     }
     
     button.complete {
-        background-color: blue;
+        background-color: green;
         border-radius: 100%;
         cursor: pointer;
     }
