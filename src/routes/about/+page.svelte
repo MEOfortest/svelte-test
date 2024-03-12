@@ -1,7 +1,8 @@
+<!--
 <h1>А вот и я :)</h1>
 
-<img src="pictures/myphoto.jpg" width="80%" alt="me" />
-
+<img src="pictures/myphoto.jpg" width="80%" alt="me" /> картинка почему-то не отображается
+-->
 <p>Я многое узнал за время обучения в Коде Будущего! Я научился много новому и теперь многое умею</p>
 
 <p>Например, я могу сделать простенькую анимацию:</p>
@@ -14,10 +15,12 @@
 
     <div class="text-block"> МЕНЕДЖЕР </div>
 
+<p>Или сделать <input type="button" id="background" value="Изменить цвет фона" onclick="ChangeBackground()"></p>
+
 <style>
  p {
     font-style: oblique;
-    font-size: 20px;
+    font-size: 30px;
     color: blue;
  }
 
@@ -41,3 +44,12 @@
     }
 }
 </style>
+
+<script>
+const body = document.querySelector('body'); 
+
+function ChangeBackground() { 
+    const background = document.getElementById("background").value;
+    body.style.backgroundColor = "green";
+}
+</script>
