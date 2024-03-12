@@ -110,22 +110,14 @@
         font-size: 1.5rem;
         margin: 2em 0;
     }
-    
-    button.delete {
-        background-color: red;
-        border-radius: 100%;
-    }
-
+     
+    button.delete,
     button.delete:hover {
         color: brown;
         transition: color 100ms ease-out;
     }
     
-    button.complete {
-        background-color: green;
-        border-radius: 100%;
-    }
-
+    button.complete,
     button.complete:hover {
         color: cabetblue;
         transition: color 100ms ease-out;
@@ -152,6 +144,7 @@
     .add_to-do {
         background-color: transparent;
         border: 1px solid black;
+        cursor: pointer;
     }
     </style>
     
