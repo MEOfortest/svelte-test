@@ -50,6 +50,7 @@
     }
 
     .nav-container {
-        border: 2px solid black;
+        border: 2px solid orange;
+        height: 50px;
     }
 </style>
