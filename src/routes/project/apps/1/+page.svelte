@@ -29,7 +29,7 @@
     <h1>My to-do list</h1>
         <form on:submit|preventDefault={add}>
             <input bind:value={newItem} placeholder="Enter to-do" />
-            <button class="add to-do" on:click={add}><span>+</span></button>
+            <button class="add_to-do" on:click={add}><span>+</span></button>
         </form>
     
     <div class="todos">
@@ -91,7 +91,7 @@
         align-items: center;
     }
     
-    .todo\_\_buttons {
+    .todo_buttons {
         display: flex;
         align-items: center;
         margin-left: 1rem;
@@ -111,28 +111,32 @@
         margin: 2em 0;
     }
     
-    button {
-        background-color: blue;
-        border: none;
+    button.delete {
+        background-color: red;
+        border-radius: 100%;
     }
-    
-    button.delete,
+
     button.delete:hover {
         color: brown;
         transition: color 100ms ease-out;
     }
     
-    button.complete,
+    button.complete {
+        background-color: green;
+        border-radius: 100%;
+    }
+
     button.complete:hover {
         color: cabetblue;
         transition: color 100ms ease-out;
     }
-    
+
     .todo.completed {
         color: slategray;
     }
     
-    .todo.completed.todo\_\_text {
+    .todo.completed,
+    .todo_text {
         text-decoration: line-through;
     }
     
@@ -143,6 +147,11 @@
     .todos {
         width: 100%;
         max-width: 500px;
+    }
+
+    .add_to-do {
+        background-color: transparent;
+        border: 1px solid black;
     }
     </style>
     
