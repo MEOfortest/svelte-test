@@ -26,8 +26,8 @@
          isShow: true,
         },
         {
-         title: "Проекты",
-         href: "/projects",
+         title: "Новости",
+         href: "/news",
          isShow: true,
         },
         {
@@ -47,5 +47,6 @@
     .container {
         max-width: 1400px;
         margin: 50px auto;
+        border: 2px solid black;
     }
 </style>
