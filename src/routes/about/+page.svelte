@@ -68,6 +68,14 @@
     color: blue;
  }
 
+ table {
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+ }
+
  td, th {
     font-style: italic;
     font-size: 25px;
