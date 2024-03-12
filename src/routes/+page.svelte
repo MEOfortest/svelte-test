@@ -8,14 +8,11 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                        <p class="animate-text-1">NONSENSE nonsense</p>
-                        <p class="text-2">nonsense NONSENSE</p>
+                        <p class="animate-text-1">Добро пожаловать на мой небольшой сайт!</p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                    fd;jglgdklfhglikgtrigfhdfglfkghfgbngjnbghbhgbhhblchbcehbfiwryfbryvbhfbvfhbvlr
-                    fhvdhfkvbldfvbdhbdvdfjvbdvhjbdvjhdvbdjvb
-                </h2>
+                    Я учусь программированию и теперь я умею делать много разных вещей! А сейчас я пытаюсь создать сайт с помощью фреймворка Svelte Js. Можете посмотреть, что из этого получилось!                </h2>
             </div>
         </div>
     </div>
@@ -66,7 +63,7 @@
     }
     
     .background-div {
-        background-color: red;
+        background-color: lightgray;
         width: 100%;
         height: 56vh;
         margin: -160px auto;
