@@ -20,8 +20,9 @@
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
     font-size: 20px;
-}
+    color: blue;
+ }
 
 </style>
