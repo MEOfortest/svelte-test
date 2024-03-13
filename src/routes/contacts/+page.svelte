@@ -6,12 +6,9 @@
 </div>
 
 <style>
-.contacts {
-    display: flex;
-    justify-content: space-around;
-}
 
 .VK, .Telegram {
     margin-left: 30px;
+    display: inline-block;
 }
 </style>
