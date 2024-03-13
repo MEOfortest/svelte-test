@@ -73,11 +73,11 @@
     border-collapse: collapse;
     width: 500px;
     table-layout: fixed;
+    align-items: center;
  }
 
  td, th {
     font-style: italic;
-    align-items: center;
     font-size: 25px;
     color: purple;
     border: 1px solid grey;

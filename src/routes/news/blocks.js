@@ -1,32 +1,33 @@
 export const blocks = [
     {
         id: 1,
-        title: 'Что такое NumPy и зачем он нужен?',
-        body: 'NumPy — это открытая бесплатная библиотека для Python. Она ускоряет работу с многомерными массивами и матрицами, а также позволяет вычислять много высокоуровневых математических функций при работе с массивами данных. Это упрощает работу аналитика данных, позволяя ему быстро проводить сложные вычисления.',
+        title: 'Apple начала собирать в Бразилии базовую модель линейки iPhone 15',
+        preview: 'https://habrastorage.org/r/w780/getpro/habr/upload_files/61c/1b4/b73/61c1b4b734ef33a6546e5ef33001d413.jpg',
+        body: 'Apple запустила сборку базовой модели линейки iPhone 15 на предприятии Foxconn в Сан-Паулу, Бразилия. Остальные последние модели смартфонов Apple продолжают поставлять в Бразилию из других стран.',
     },
     {
         id: 2,
-        title: 'My Second Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: 'Microsoft добавила GPT-4 Turbo в бесплатную версию Copilot',
+        body: 'Microsoft объявила о развёртывании большой языковой модели GPT-4 Turbo в бесплатной версии Copilot. Решение позволит повысить производительность помощника на базе искусственного интеллекта.',
     },
     {
         id: 3,
-        title: 'My First Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: 'Cognition представила нейросеть Devin, которая умеет осуществлять полный цикл разработки ПО вместо инженера-программиста',
+        body: 'Американский стартап Cognition представил нейросеть под названием Devin. В компании утверждают, что этот проект способен более самостоятельно осуществлять полный цикл разработки ПО и даже заменить инженера-программиста.',
     },
     {
         id: 4,
-        title: 'My Second Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: 'Облачный провайдер Serverspace запустил продажи в Бразилии',
+        body: 'В 2024 году Serverspace продолжил региональное расширение и запустил представительство в новом для себя регионе – Латинская Америка, Бразилия. Для местных пользователей или компаний, которые работают на локальном рынке, теперь доступны веб-сайт на португальском языке и панель управления облачными сервисами с приемом оплаты в бразильских реалах.',
     },
     {
         id: 5,
-        title: 'My First Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: 'Midjourney научился генерировать одинаковых персонажей',
+        body: 'Midjourney, наконец, услышал стоны миллионов пользователей и внедрил возможность воссоздавать одинаковых персонажей в новых генерациях.',
     },
     {
         id: 6,
-        title: 'My Second Blog Post',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+        title: '«Яндекс Маркет» представил новую модель складского робота со встроенной нейросетью',
+        body: '«Яндекс Маркет» начал использовать на своём Cуперскладе (Софьино-2) новую модель складского робота — «Роборуку». С её помощью сервис планирует решать разные задачи — от разгрузки прибывшей партии товаров до их подготовки к отправке покупателям. «Роборука» поможет ускорить складские процессы и повысить качество их выполнения, а также избавит сотрудников от монотонной работы.',
     },
 ];

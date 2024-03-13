@@ -9,4 +9,9 @@
         width: 80%;
         padding: 0 20px;
     }
+
+    a {
+        border: 1px solid black;
+        padding: 3px;
+    }
 </style>
