@@ -1,6 +1,7 @@
 <h1>А вот и я :)</h1>
 
 <img src="/img/myphoto.jpg" width="80%" alt="me" /> 
+<img src="img/scheme.webp" width="600px" alt="she" /> 
 
 <p>Я многое узнал за время обучения в Коде Будущего! Я научился много новому и теперь многое умею</p>
 
