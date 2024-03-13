@@ -9,6 +9,9 @@
 .contacts {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+}
+
+.VK, .Telegram {
+    margin-left: 30px;
 }
 </style>
