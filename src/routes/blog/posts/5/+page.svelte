@@ -28,8 +28,10 @@
 
 <p><b>Контроллер (Controller)</b> отвечает за реакцию двух предыдущих объектов на действия пользователя. Его код и логика проверяют, как сайт обрабатывает запросы и выдает ли правильный результат.</p>
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style>
 
-</style>
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    </style>

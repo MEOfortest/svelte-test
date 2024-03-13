@@ -22,8 +22,10 @@
 
 <p>Подробнее о всех тонкостях работы Python-разработчика рассказываем на курсе. Наши специалисты помогают начинающим программистам освоить создание сайтов, веб-приложений или бэкенд за 10 месяцев!</p>
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style>
 
-</style>
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    </style>

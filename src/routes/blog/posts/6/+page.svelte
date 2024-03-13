@@ -44,8 +44,10 @@
 
 <p>Также для JavaScript уже написано несколько библиотек, — готовых наборов кода — на основе которых можно создать свою нейросеть. Это, например, Brain.js, Deep playground, Synaptic или FlappyLearning.</p>
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style>
 
-</style>
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    </style>

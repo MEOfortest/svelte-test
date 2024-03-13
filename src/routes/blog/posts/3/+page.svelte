@@ -23,8 +23,10 @@
     <li><b>Обеспечивать безопасность.</b>За счет типов данных программы могут правильно применять ограничения к использованию информации. А это уменьшает уязвимость.</li>
 </ul>
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style>
 
-</style>
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    </style>

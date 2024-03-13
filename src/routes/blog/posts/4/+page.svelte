@@ -23,8 +23,10 @@
     <li>Для создания мобильных приложений. Но в этом случае необходимо использовать технологии для адаптации.</li>
 </ul>
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+<style>
 
-</style>
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    </style>
