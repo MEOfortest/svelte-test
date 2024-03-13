@@ -1,8 +1,3 @@
-<h1>А вот и я :)</h1>
-
-<img src="./img/myphoto.jpg" width="80%" alt="me" /> 
-<img src="../img/scheme.webp" width="600px" alt="she" /> 
-
 <p>Я многое узнал за время обучения в Коде Будущего! Я научился много новому и теперь многое умею</p>
 
 <p>Например, я могу сделать простенькую анимацию:</p>
@@ -22,11 +17,11 @@
     <li>списки</li>
 </ul>
 
-<p class="chemistry">И писать разные химические формулы:</p>
+<p class="chemistry">И писать разные химические уравнения:</p>
 <p class="chemistry">H<sub>2</sub> + CuO &rarr; Cu + H<sub>2</sub>O</p>
 <p class="chemistry">K<sub>2</sub>O + N<sub>2</sub>O<sub>5</sub> &rarr; KNO<sub>3</sub></p>
-<p class="chemistry">HGo &rarr; Cu + HG + O<sub>2</sub></p>
-<p class="chemistry">KClO<sub>3</sub> &rarr; KCl + O<sub>2</sub>O</p>
+<p class="chemistry">HgO &rarr; Hg + O<sub>2</sub></p>
+<p class="chemistry">KClO<sub>3</sub> &rarr; KCl + O<sub>2</sub></p>
 
 <p>Также умею создавать таблицы:</p>
 <table>
@@ -63,6 +58,8 @@
     </tbody>
 </table>
 
+<p>Это всего лишь малая часть того, что я умею, но скоро, я уверен, буду уметь ещё больше!</p>
+
 <style>
  p, ul {
     font-style: oblique;
@@ -80,6 +77,7 @@
 
  td, th {
     font-style: italic;
+    align-items: center;
     font-size: 25px;
     color: purple;
     border: 1px solid grey;
