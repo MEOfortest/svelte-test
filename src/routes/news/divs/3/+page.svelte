@@ -18,4 +18,8 @@
     <li>умение самостоятельно решать программные задачи по веб-разработке и другим направлениям на различных биржах фриланса, включая Upwork.</li>
 </ul>
 
-<img src="https://youtu.be/UTS2Hz96HYQ" width="90%" alt="Видео 1"/>
+<p>Ссылка на видео: https://youtu.be/UTS2Hz96HYQ"</p>
+
+<p>Ссылка на видео: https://youtu.be/fjHtjT7GO1c"</p>
+
+<p>Ссылка на видео: https://youtu.be/G45NKnAWuXc"</p>
