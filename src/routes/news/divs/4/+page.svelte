@@ -27,3 +27,12 @@
 </ol>
 
 <p>После пополнения баланса сервер будет создан автоматически.</p>
+
+<style>
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    </style>

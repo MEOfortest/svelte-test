@@ -37,7 +37,7 @@
     }
 
     .post {
-        border: 1px solid #ddd;
+        border: 1px solid purple;
         padding: 10px;
         box-shadow: 0 0 10px #eee;
     }
