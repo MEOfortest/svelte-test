@@ -48,7 +48,7 @@
 
     p {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 15px;
+        font-size: 30px;
     }
     
     </style>
