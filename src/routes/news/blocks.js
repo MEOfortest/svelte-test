@@ -2,7 +2,6 @@ export const blocks = [
     {
         id: 1,
         title: 'Apple начала собирать в Бразилии базовую модель линейки iPhone 15',
-        preview: 'https://habrastorage.org/r/w780/getpro/habr/upload_files/61c/1b4/b73/61c1b4b734ef33a6546e5ef33001d413.jpg',
         body: 'Apple запустила сборку базовой модели линейки iPhone 15 на предприятии Foxconn в Сан-Паулу, Бразилия. Остальные последние модели смартфонов Apple продолжают поставлять в Бразилию из других стран.',
     },
     {

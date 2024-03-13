@@ -10,7 +10,7 @@
                 <h2>{page.title}</h2>
                 <p>{page.body}</p>
                 <p class="readmore">
-                    <a class="link" href={`/news/posts/${page.id}`}>
+                    <a class="link" href={`/news/divs/${page.id}`}>
                     Подробнее...
                     </a>
                 </p>
