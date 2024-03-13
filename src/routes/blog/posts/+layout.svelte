@@ -12,5 +12,6 @@
 
     a {
         border: 1px solid black;
+        padding: 3px;
     }
 </style>

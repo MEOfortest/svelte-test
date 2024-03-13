@@ -48,8 +48,4 @@
         border: 2px solid orange;
         height: 50px;
     }
-
-    nav {
-        font-size: 20px;
-    }
 </style>
